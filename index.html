@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Lookbook, Nemesis, fashion, lifestyle">
+    <meta name="description" content="Nemesis Lookbook - Website about fashion and lifestyle">
+    <title>Fashion Nemesis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="main/css/style.css">
+  </head>
+  <body onload="loaded()">
+    
+  <div class="content">
+    
+    <header class="header">
+      <nav class="nav">
+        <button class="nav-btn" onclick="openNav()">☰</button>
+        <ul class="menu">
+          <div class="menu-details">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+            <li><a href="#lifestyle" class="nav-link">Lifestyle</a></li>
+            <li><a href="#stories" class="nav-link">Stories</a></li>
+            <li><a href="#fashion" class="nav-link">Fashion</a></li>
+            <li><a href="#events" class="nav-link">Events</a></li>
+            <li><a href="#contact-us" class="nav-link">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div class="logo">
+        <a href="index.html"><img src="main/images/logo.jpg" alt="Company logo"></a>
+      </div>
+      <div class="search">
+        <i class="fas fa-search" onclick="openSearch()"></i>
+        <form class="search-form">
+          <div class="search-details">
+            <div class="search-text">
+              <p>What are you looking for?</p>
+            </div>
+            <a class="close-btn" onclick="closeSearch()">&times;</a>
+            <input type="search" name="search" placeholder="search..." class="search-input">
+          </div>
+        </form>
+      </div>
+    </header>
+    
+    <div class="container" id="home">
+      <div class="wrap-container">
+        <div class="wrapper">
+          <section class="main-section">
+            <div class="main-gray-column"></div>
+            <div class="main-image">
+              <div class="info-box">
+                <div class="info-box-header">
+                  <h1 class="main-header">Fashion</h1>
+                </div>
+                <div class="info-box-content">
+                  <p class="main-text">Lookbook lorem purple ipsum 2016</p>
+                  <div class="main-button">
+                    <button type="button" class="main-btn"><span>check more</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="news">
+            <div class="main-purple-column">
+              
+            </div>
+            <div class="box-wrapper">
+              <div class="news-box" id="lifestyle">
+                <div class="box-content">
+                  <div class="box-photo">
+                    <img src="main/images/lifestyle.jpg" alt="lifestyle photo">
+                  </div>
+                  <div class="box-text">
+                    <div class="news-header">
+                      <h6 class="news-header-title">Lifestyle</h6>
+                      <h6 class="news-header-date">02 Jan</h6>
+                    </div>
+                    <h3 class="news-article-title">Lorem ipsum welcomes new fashion brand</h3>
+                    <div class="box-text-border">
+                      <hr>
+                    </div>
+                    <p class="new-article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue libero erat, eget aliquam dolor fermentum at.</p>
+                    <div class="news-button">
+                      <button type="button" name="button" class="news-btn"><span>check more</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="news-box" id="stories">
+                <div class="box-content">
+                  <div class="box-photo">
+                    <img src="main/images/stories.jpg" alt="stories photo">
+                  </div>
+                  <div class="box-text">
+                    <div class="news-header">
+                      <h6 class="news-header-title">Stories</h6>
+                      <h6 class="news-header-date">02 Jan</h6>
+                    </div>
+                    <h3 class="news-article-title">Lorem ipsum welcomes new fashion brand</h3>
+                    <div class="box-text-border">
+                      <hr>
+                    </div>
+                    <p class="new-article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue libero erat, eget aliquam dolor fermentum at.</p>
+                    <div class="news-button">
+                      <button type="button" name="button" class="news-btn"><span>check more</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="news-box" id="fashion">
+                <div class="box-content">
+                  <div class="box-text">
+                    <div class="news-header">
+                      <h6 class="news-header-title">Fashion</h6>
+                      <h6 class="news-header-date">02 Jan</h6>
+                    </div>
+                    <h3 class="news-article-title">Lorem ipsum welcomes new fashion brand</h3>
+                    <div class="box-text-border">
+                      <hr>
+                    </div>
+                    <p class="new-article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue libero erat, eget aliquam dolor fermentum at.</p>
+                    <div class="news-button">
+                      <button type="button" name="button" class="news-btn"><span>check more</span></button>
+                    </div>
+                  </div>
+                  <div class="box-photo">
+                    <img src="main/images/fashion.jpg" alt="fashion photo">
+                  </div>
+                </div>
+              </div>
+              <div class="news-box" id="events">
+                <div class="box-content">
+                  <div class="box-text">
+                    <div class="news-header">
+                      <h6 class="news-header-title">Events</h6>
+                      <h6 class="news-header-date">02 Jan</h6>
+                    </div>
+                    <h3 class="news-article-title">Lorem ipsum welcomes new fashion brand</h3>
+                    <div class="box-text-border">
+                      <hr>
+                    </div>
+                    <p class="new-article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue libero erat, eget aliquam dolor fermentum at.</p>
+                    <div class="news-button">
+                      <button type="button" name="button" class="news-btn"><span>check more</span></button>
+                    </div>
+                  </div>
+                  <div class="box-photo">
+                    <img src="main/images/events.jpg" alt="events photo">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>  
+        <div class="main-purple-column"></div>
+      </div>
+      
+      <section class="storehouse">
+        <div class="row">
+          <div class="storehouse-box">
+            <div class="storehouse-box-content">
+              <div class="blackwear slideshow">
+                <div class="slideitem current">
+                  <div class="blackwear-details">
+                    <h6>prepare for</h6>
+                    <h3>blackwear #1</h3>
+                    <button type="button" class="st-btn"><span>order now</span></button>
+                  </div>
+                </div>
+                <div class="slideitem">
+                  <div class="blackwear-details">
+                    <h6>prepare for</h6>
+                    <h3>blackwear #2</h3>
+                    <button type="button" class="st-btn"><span>order now</span></button>
+                  </div>
+                </div>
+                <div class="slideitem">
+                  <div class="blackwear-details">
+                    <h6>prepare for</h6>
+                    <h3>blackwear #3</h3>
+                    <button type="button" class="st-btn"><span>order now</span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="storehouse-logo">
+                <div class="storehouse-details">
+                  <div class="storehouse-header">
+                    <div class="storehouse-header-content">
+                      <h6>The</h6>
+                      <h3>STOREHOUSE</h3>
+                      <p>Check our new collection</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="arrows">
+                  <div class="arrow left-arrow">
+                    <img src="main/images/right-arrow.png" alt="right arrow">
+                  </div>
+                  <div class="arrow right-arrow">
+                    <img src="main/images/left-arrow.png" alt="left arrow">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="arrows2">
+              <div class="arrow left-arrow">
+                <img src="main/images/right-arrow.png" alt="right arrow">
+              </div>
+              <div class="arrow right-arrow">
+                <img src="main/images/left-arrow.png" alt="left arrow">
+              </div>
+            </div>
+            <div class="reader-text">
+                <h6>Kate Winslet</h6>
+                <h3>The Reader</h3>
+              <div class="reader-button">
+                <button type="button" class="st-btn"><span>order now</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="team">
+            <div class="team-details">
+              <div class="team-join">
+                <h6>best team ever</h6>
+                <h3>join to us.</h3>
+              </div>
+              <div class="collection">
+                <div class="collection-details">
+                  <h3>Newest nike collection</h3>
+                  <div class="button-order">
+                    <button type="button" class="order-btn"><span>view more</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="inspiration">
+        <div class="row">
+          <div class="inspiration-box">
+            <div class="inspiration-box-details">
+              <h6>Daily</h6>
+              <h3>Inspiration</h4>
+          </div>
+          </div>
+          <div class="events">
+            <div class="box-text">
+              <div class="news-header">
+                <h6 class="news-header-title">Events</h6>
+                <h6 class="news-header-date">02 Jan</h6>
+              </div>
+              <h3 class="news-article-title">Lorem ipsum welcomes new fashion brand</h3>
+              <div class="box-text-border">
+                <hr>
+              </div>
+              <p class="new-article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue libero erat, eget aliquam dolor fermentum at.</p>
+              <div class="news-button">
+                <button type="button" name="button" class="news-btn"><span>check more</span></button>
+              </div>
+              <div class="news-footer">
+                  <h3>Best outfit</h4>
+                  <h6>from our stuff</h6>
+              </div>
+            </div>
+          </div>
+          <div class="inspiration-gray-column">
+          </div>
+        </div>
+      </section>
+      
+      <section class="suit">
+        <div class="row">
+          <div class="suit-day">
+            <h6>From our readers</h6>
+            <h3>Day of my Life.</h3>
+          </div>
+          <div class="suit-fun">
+            <div class="arrows">
+              <div class="arrow left" onclick="plusDivs(1)">
+                <img src="main/images/right-arrow.png" alt="right arrow">
+              </div>
+              <div class="arrow" onclick="plusDivs(-1)">
+                <img src="main/images/left-arrow.png" alt="left arrow">
+              </div>
+            </div>
+            <div class="fun-details slide">
+              <h3>Suit up and have fun #1</h3>
+            </div>
+            <div class="fun-details slide">
+              <h3>Suit up and have fun #2</h3>
+            </div>
+            <div class="fun-details slide">
+              <h3>Suit up and have fun #3</h3>
+            </div>
+          </div>
+          <div class="suit-gallery">
+            <h3>Newest gallery</h3>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="more-inspirations" id="contact-us">
+          <div class="more-inspirations-box">
+            <h4><span>Show me</span> more inspirations</h4>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-box">
+            <a href="#home"><img src="main/images/logo.jpg" alt="logo"></a>
+              <a href="#fashion" class="link">Fashion</a><hr/>
+              <a href="#lifestyle" class="link">Lifestyle</a><hr/>
+              <a href="#events" class="link">Events</a><hr/>
+              <a href="#stories" class="link">Stories</a><hr/>
+          </div>
+        </div>
+        <div class="socials">
+          <p>Copyright. All Rights reserved by NEMESIS Template</p>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </footer>
+      
+    </div>
+  </div>
+  <div class="loader"></div>
+
+    <script src="main/js/jquery-3.2.1.min.js"></script>
+    <script src="main/js/main.js"></script>
+  </body>
+</html>
