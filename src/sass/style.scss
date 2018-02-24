@@ -151,6 +151,10 @@
     justify-content: center;
     padding: 20px;
     color: $lightPurple;
+    
+    &:hover{
+      color: $purple;
+    }
   }    
 }
 
@@ -1017,6 +1021,10 @@
 
 @media screen and (max-width: 800px){
   
+  .box-text .new-article-text{
+    color: $mobileColor;
+  }
+  
   .wrap-container .wrapper .main-section .info-box .info-box-content .main-text{
     font-size: 30px;
     line-height: 40px;
@@ -1217,6 +1225,10 @@
   .main-button{
     text-align: center;
   }
+  
+  .storehouse .team-details .team-join{
+    height: 340px;
+  }
 }
 
 @media screen and (max-width: 500px){
@@ -1241,6 +1253,22 @@
 @media screen and (max-width: 400px){
   .inspiration .row .inspiration-box{
     height: 360px;
+  }
+  
+  .storehouse-box-content .storehouse-logo .storehouse-details .storehouse-header .storehouse-header-content h3{
+    font-size: 40px;
+  }
+  
+  .reader-text h3{
+    font-size: 68px;
+  }
+  
+  .reader-text h6{
+    top: 16%;
+  }
+  
+  .inspiration-box-details h3{
+    font-size: 35px;
   }
 }
 

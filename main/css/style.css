@@ -163,6 +163,8 @@
             justify-content: center;
     padding: 20px;
     color: #9f61c1; }
+    .header .nav-link:hover {
+      color: #5d257c; }
 
 .container {
   display: -webkit-box;
@@ -1058,6 +1060,8 @@
     width: 60%; } }
 
 @media screen and (max-width: 800px) {
+  .box-text .new-article-text {
+    color: #c8c8c8; }
   .wrap-container .wrapper .main-section .info-box .info-box-content .main-text {
     font-size: 30px;
     line-height: 40px; }
@@ -1230,7 +1234,9 @@
             align-items: center;
     text-align: center; }
   .main-button {
-    text-align: center; } }
+    text-align: center; }
+  .storehouse .team-details .team-join {
+    height: 340px; } }
 
 @media screen and (max-width: 500px) {
   .wrap-container .wrapper .main-section .info-box .info-box-content .main-text {
@@ -1245,4 +1251,12 @@
 
 @media screen and (max-width: 400px) {
   .inspiration .row .inspiration-box {
-    height: 360px; } }
+    height: 360px; }
+  .storehouse-box-content .storehouse-logo .storehouse-details .storehouse-header .storehouse-header-content h3 {
+    font-size: 40px; }
+  .reader-text h3 {
+    font-size: 68px; }
+  .reader-text h6 {
+    top: 16%; }
+  .inspiration-box-details h3 {
+    font-size: 35px; } }
