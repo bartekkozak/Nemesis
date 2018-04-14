@@ -44,7 +44,7 @@
   align-items: center;
   position: fixed;
   z-index: 9999;
-  
+
   // MENU
 
   .menu{
@@ -58,12 +58,12 @@
     overflow: hidden;
     transition: 0.6s;
     padding-top: 60px;
-    
+
     .menu-details{
       display: flex;
       flex-direction: column;
     }
-    
+
     .close-btn{
       text-decoration: none;
       color: $lightPurple;
@@ -73,12 +73,12 @@
       font-size: 60px;
     }
   }
-  
+
   .search{
     font-size: 30px;
     color: $purple;
     cursor: pointer;
-    
+
     .search-form{
       height: 100%;
       width: 0;
@@ -89,21 +89,21 @@
       overflow: hidden;
       background-color: rgba(21, 20, 21, 0.95);
       transition: 0.6s;
-      padding-top: 60px;     
-      
+      padding-top: 60px;
+
       .search-details {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-top: 38px;
-        
+
         .search-text {
           color: $lightPurple;
           font-size: 30px;
           text-align: center;
           padding: 3px;
         }
-        
+
         .search-input{
           height: 50px;
           width: 60%;
@@ -142,7 +142,7 @@
     border: none;
     outline: none;
   }
-  
+
   .nav-link{
     list-style-type: none;
     text-decoration: none;
@@ -151,11 +151,11 @@
     justify-content: center;
     padding: 20px;
     color: $lightPurple;
-    
+
     &:hover{
       color: $purple;
     }
-  }    
+  }
 }
 
 // MAIN SECTION
@@ -169,46 +169,47 @@
   display: flex;
   background-color: $white;
   padding-top: 120px;
-  
+
   .main-purple-column{
     background-color: $purple;
     flex: 8%;
   }
-  
+
   .wrapper{
     display: flex;
     flex-direction: column;
     flex: 90%;
-    
+
     .main-section{
       display: flex;
       flex: 1;
-      
+
       .main-image{
         flex: 65%;
         background-image: url('../images/main.jpg');
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
         height: 889px;
         display: flex;
         align-items: center;
       }
-      
+
       .info-box{
         margin-left: -28%;
         background-color: $purple;
         width: 55%;
         padding: 4% 3% 4% 3%;
-        
+
         .main-header{
           color: $white;
           font-size: 18px;
-          padding-bottom: 25px;  
+          padding-bottom: 25px;
         }
-        
+
         .info-box-content{
           border-top: 1px solid $lightPurple;
-          
+
           .main-text{
             color: $white;
             font-size: 48px;
@@ -216,7 +217,7 @@
             padding-top: 5%;
             font-weight: 600;
           }
-          
+
           .main-btn{
             outline: none;
             padding: 10px 25px;
@@ -230,12 +231,12 @@
             text-transform: uppercase;
             overflow: hidden;
             position: relative;
-            
+
             span{
               position: relative;
               z-index: 99;
             }
-            
+
             &:after{
               content: '';
               width: 0px;
@@ -256,31 +257,31 @@
         }
       }
     }
-    
+
     .main-gray-column{
       background-color: $gray;
       flex: 30%;
     }
-    
+
     .news{
       display: flex;
-            
+
       .box-wrapper{
         display: flex;
         flex-wrap: wrap;
         flex:88%;
-        
+
         .news-box{
           flex: 50%;
         }
       }
-      
+
       .box-content{
         display: flex;
-        
+
         .box-photo{
           flex: 50%;
-          
+
           img{
             width: 100%;
             height: 100%;
@@ -288,7 +289,7 @@
         }
       }
     }
-  } 
+  }
 }
 
 .box-text{
@@ -296,12 +297,12 @@
   flex: 50%;
   flex-direction: column;
   padding: 20px;
-  
+
   .news-header{
     display: flex;
     justify-content: space-between;
     padding: 30px 0 15px 0;
-    
+
     .news-header-title{
       font-family: 'Playfair Display', serif;
       font-size: 18px;
@@ -309,7 +310,7 @@
       color: $purple;
       font-weight: 600;
     }
-    
+
     .news-header-date{
       font-family: 'Playfair Display', serif;
       font-size: 18px;
@@ -317,7 +318,7 @@
       color: $grayFont;
     }
   }
-  
+
   .news-article-title{
     font-size: 28px;
     color: $black;
@@ -325,24 +326,24 @@
     font-weight: 600;
     padding-right: 5px;
   }
-  
+
   .box-text-border hr{
     margin: 25px 0;
     border: 2px solid $black;
     width: 80px;
   }
-  
+
   .new-article-text{
     font-size: 14px;
     line-height: 35px;
     color: $grayFont;
   }
-  
+
   .news-button{
     display: flex;
     height: 25%;
     align-items: center;
-    
+
     .news-btn{
       outline: none;
       color: $black;
@@ -355,12 +356,12 @@
       position: relative;
       overflow: hidden;
       cursor: pointer;
-      
+
       span{
         position: relative;
         z-index: 99;
       }
-      
+
       &:after{
         content: '';
         width: 0px;
@@ -379,7 +380,7 @@
       }
     }
   }
-  
+
   .news-footer{
     width: 236px;
     h3{
@@ -412,7 +413,7 @@
 
 .storehouse-box-content{
   display: flex;
-  
+
   .blackwear{
     width: 43.4%;
     background-image: url('../images/blackwear.jpg');
@@ -424,29 +425,29 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
     h6{
       font-family: 'Playfair Display', sans-serif;
       font-size: 20px;
       color: #d7d7d7;
       font-style: italic;
     }
-    
+
     h3{
       font-size: 34px;
       color: $black;
       text-transform: uppercase;
     }
   }
-  
+
   .slideshow{
     position: relative;
   }
-  
+
   .slideitem{
     position: absolute;
   }
-  
+
   .slider-dots{
     list-style: none;
     display: inline-block;
@@ -459,7 +460,7 @@
     z-index:99;
     transition: all 0.7s;
   }
-  
+
   .slider-dots li {
   color: $grayBg;
   display: inline;
@@ -472,18 +473,18 @@
   color: $purple;
   transition: 0.7s;
 }
-  
+
   .storehouse-logo{
     display: flex;
     flex: 60%;
     flex-direction: column;
-    
+
     .storehouse-details{
       background-color: $purple;
       display: flex;
       flex-direction: column;
       height: 50%;
-      
+
       .storehouse-header{
         height: 100%;
         background: $purple;
@@ -493,10 +494,10 @@
         justify-content: center;
         border: 4px solid $purpleButton;
         margin: 25px;
-  
+
         .storehouse-header-content{
           text-align: center;
-      
+
           h6{
             font-family: 'Playfair Display', serif;
             color: $white;
@@ -504,14 +505,14 @@
             font-style: italic;
             font-weight: 600;
           }
-          
+
           h3{
             font-family: 'Raleway', sans-serif;
             color: $white;
             font-size: 48px;
             font-weight: 600;
           }
-          
+
           p{
             font-family: 'Playfair Display', serif;
             font-size: 14px;
@@ -520,16 +521,16 @@
             padding-bottom: 10px;
             cursor: pointer;
             transition: 0.7s;
-            
+
             &:hover{
               color: $white;
               transition: 0.7s;
             }
           }
-        } 
+        }
       }
     }
-    
+
     .arrows{
       display: flex;
       flex-direction: column;
@@ -538,7 +539,7 @@
       height: 50%;
       width: 15%;
       background-color: $white;
-      
+
       .arrow{
         cursor: pointer;
       }
@@ -554,7 +555,7 @@
   display: flex;
   flex-direction: column;
   flex: 29%;
-  
+
   .team-join{
     display: flex;
     flex-direction: column;
@@ -564,21 +565,21 @@
     background-size: 100% 100%;
     align-items: center;
     justify-content: center;
-    
+
     h6{
       font-family: 'Playfair Display', sans-serif;
       font-size: 20px;
       color: #d7d7d7;
       font-style: italic;
     }
-    
+
     h3{
       font-size: 34px;
       color: $black;
       text-transform: uppercase;
     }
   }
-  
+
   .collection{
     display: flex;
     height: 420px;
@@ -593,7 +594,7 @@
       color: $white;
       text-transform: uppercase;
     }
-    
+
     .order-btn{
       outline: none;
       padding: 10px 25px;
@@ -607,12 +608,12 @@
       text-transform: uppercase;
       position: relative;
       overflow: hidden;
-      
+
       span{
         position: relative;
         z-index: 99;
       }
-            
+
       &:after{
         content: '';
         width: 0px;
@@ -678,17 +679,17 @@
   position: relative;
   overflow: hidden;
   transition: 2s;
-  
+
   span{
     position: relative;
     z-index: 99;
   }
-  
+
   &:hover{
     color: $white;
     transition: 1s;
   }
-  
+
   &:after{
     content: '';
     width: 0px;
@@ -733,14 +734,14 @@
   width: 62.7%;
   align-items: center;
   justify-content: center;
-  
+
   h6{
     font-family: 'Playfair Display', sans-serif;
     color: #d7d7d7;
     font-size: 24px;
     font-style: italic;
   }
-  
+
   h3{
     font-size: 45px;
     color: $black;
@@ -762,7 +763,7 @@
 
 .suit{
   height: 600px;
-  
+
 }
 
 .suit-day{
@@ -775,20 +776,20 @@
   height: 600px;
   justify-content: center;
   align-items: center;
-  
+
   h6{
     font-size: 20px;
     font-family: 'Playfair Display', sans-serif;
     font-style: italic;
     color: #606060;
   }
-  
+
   h3{
     font-size: 40px;
     color: $white;
     text-align: center;
   }
-  
+
 }
 
 .suit-fun{
@@ -798,7 +799,7 @@
   background-image: url('../images/suit.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  
+
   .arrows{
     display: flex;
     align-self: flex-end;
@@ -808,19 +809,19 @@
     height: 60%;
     width: 11.5%;
     background-color: $white;
-    
+
     .arrow{
       cursor: pointer;
     }
   }
-  
+
   .fun-details{
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: flex-end;
     padding: 40px;
-    
+
     h3{
       font-size: 56px;
       color: $white;
@@ -830,7 +831,7 @@
 
 .slideshow2{
   position: relative;
-  
+
   .slideitem2{
     position: absolute;
   }
@@ -845,7 +846,7 @@
   background-image: url('../images/gallery.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  
+
   h3{
     transform: rotate(90deg);
     color: $white;
@@ -858,21 +859,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   .more-inspirations-box{
     background-color: $gray;
     text-align: center;
     padding: 4% 6%;
     display: flex;
-    
+
     h4{
       font-size: 32px;
-      
+
       span{
         border-bottom: 3px solid black;
         cursor: pointer;
         transition: 0.2s;
-        
+
         &:hover{
           color: #873ab1;
           border-bottom: 3px solid #873ab1;
@@ -888,19 +889,19 @@
   display: flex;
   justify-content: column;
   align-items: center;
-  
+
   .footer-links-box{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    
+
     img{
       margin-left: 5%;
       margin-right: 80px;
       cursor: pointer;
     }
-    
+
     hr{
       width: 100px;
       border-style: none;
@@ -908,32 +909,32 @@
       height:2px;
       border-width: 1px;
     }
-    
+
     .link{
       text-decoration: none;
       color: black;
       padding: 0 15px;
       font-size: 16px;
       font-weight: 600;
-      
+
       &:hover{
         color: #873ab1;
       }
     }
-  }  
+  }
 }
 
 .socials{
   display: flex;
   justify-content: space-around;
   padding: 40px;
-  
+
   p{
     font-size: 14px;
     color: #cecece;
     font-weight: 600;
   }
-  
+
   .social-icons{
     i{
       padding: 0 10px;
@@ -942,19 +943,19 @@
       font-weight: 600;
       cursor: pointer;
     }
-    
+
     .fa-facebook-f{
       &:hover{
         color: #3B5998;
       }
     }
-    
+
     .fa-dribbble{
       &:hover{
         color: black;
       }
     }
-    
+
     .fa-twitter{
       &:hover{
         color: #1dcaff;
@@ -979,17 +980,17 @@
     .row{
       flex-direction: column;
     }
-    
+
     .team-details{
       display: flex;
       background: $grayBg;
       justify-content: center;
-      
+
       .team-join{
         width: 50%;
         height: 420px;
       }
-      
+
       .collection{
         width: 50%;
       }
@@ -1001,73 +1002,73 @@
   .wrap-container .wrapper .news .box-wrapper .news-box{
     flex: 100%;
   }
-  
+
   .main-gray-column{
     display: none;
   }
-  
+
   .wrap-container .wrapper .main-section .info-box{
     margin-left: 2%;
   }
-  
+
   .inspiration-box-details{
     background: rgba(244,244,244,0.8);
     height: 50%;
     width: 60%;
   }
-  
+
 
 }
 
 @media screen and (max-width: 800px){
-  
+
   .box-text .new-article-text{
     color: $mobileColor;
   }
-  
+
   .wrap-container .wrapper .main-section .info-box .info-box-content .main-text{
     font-size: 30px;
     line-height: 40px;
   }
-  
+
   .wrap-container .wrapper .main-section .info-box .info-box-content .main-btn{
     margin-top: 15px;
   }
-  
+
   .team-details{
     flex-direction: column;
   }
-  
+
   .storehouse-box{
     background-image: none;
   }
-  
+
   .storehouse .team-details .team-join{
     width: 100%;
     order: 3;
   }
-  
+
   .storehouse .team-details .collection{
     width: 100%;
   }
-  
+
   .storehouse-box-content{
     flex-direction: column;
   }
-  
+
   .storehouse-box-content .storehouse-logo .storehouse-details{
     order: 1;
   }
-  
+
   .storehouse-box-content .blackwear{
     order: 4;
     width: 100%;
   }
-  
+
   .storehouse-box-content .storehouse-logo .arrows{
     display: none;
   }
-  
+
   .arrows2{
     display: flex;
     flex-direction: row;
@@ -1075,7 +1076,7 @@
     justify-content: space-around;
     height: 90px;
     background-color: $white;
-    
+
     .left-arrow{
       order: 1;
     }
@@ -1085,39 +1086,39 @@
     display: flex;
     padding-left: 0;
     justify-content: center;
-    
+
     h6{
       top: 18%;
       font-size: 15px;
       left: 52%;
     }
   }
-  
+
   .suit{
     height: 1000px;
     .row{
       flex-direction: column;
       height: 100%;
-      
+
       .suit-day{
         background-size: cover;
       }
-      
+
       .suit-fun .fun-details{
         justify-content: center;
         text-align: center;
       }
-      
+
       .suit-fun .arrows{
         width: 100%;
         height: 20%;
         flex-direction: row;
-        
+
         .left{
           order: 1;
         }
       }
-      
+
       .suit-gallery{
         height: 100%;
         background-image: none;
@@ -1128,30 +1129,30 @@
       }
     }
   }
-  
+
   .footer-links .footer-links-box{
     margin-left: 2%;
     margin-right: 2%;
-    
+
     img{
       margin-left: 2%;
       margin-right: 5%;
     }
-    
+
     hr{
       display: none;
     }
   }
-  
+
   .inspiration{
     .row{
       flex-direction: column;
-      
+
       .inspiration-box{
         margin-top: 0;
         background-size: 100%;
         height: 500px;
-        
+
         h6{
           color: $black;
         }
@@ -1159,20 +1160,20 @@
       .inspiration-box-details{
         margin: 0 auto;
       }
-      
+
       .news-button{
         justify-content: center;
         padding-top: 20px;
         padding-bottom: 20px;
       }
-      
+
       .news-footer{
         width: auto;
         margin: 0 auto;
       }
     }
   }
-  
+
   .more-inspirations {
     height: 240px;
   }
@@ -1182,42 +1183,42 @@
   .wrap-container .wrapper .main-section .info-box .info-box-content .main-text{
     font-size: 30px;
   }
-  
+
   .wrap-container .wrapper .news .box-content{
     flex-direction: column;
   }
-  
+
   .news-button{
     justify-content: center;
     padding: 20px 0;
   }
-  
+
   .box-content{
     height: 100%;
   }
-  
+
   .footer-links{
     height: auto;
     padding-top: 40px;
   }
-  
+
   .footer-links-box{
     flex-direction: column;
   }
-  
+
   .footer-links .footer-links-box .link{
     padding: 20px;
   }
-  
+
   .socials{
     flex-direction: column;
     text-align: center;
   }
-  
+
   .social-icons{
     padding-top: 20px;
   }
-  
+
   .storehouse .team-details .collection{
     align-items: center;
     text-align: center;
@@ -1225,7 +1226,7 @@
   .main-button{
     text-align: center;
   }
-  
+
   .storehouse .team-details .team-join{
     height: 340px;
   }
@@ -1236,15 +1237,15 @@
     font-size: 20px;
     line-height: 45px;
   }
-  
+
   .wrap-container .wrapper .main-section .info-box .info-box-content .main-btn{
     margin-top: 10px;
   }
-  
+
   .inspiration .row .inspiration-box{
     height: 425px;
   }
-  
+
   .wrap-container .wrapper .main-section .info-box{
     width: 68%;
   }
@@ -1254,19 +1255,19 @@
   .inspiration .row .inspiration-box{
     height: 360px;
   }
-  
+
   .storehouse-box-content .storehouse-logo .storehouse-details .storehouse-header .storehouse-header-content h3{
     font-size: 40px;
   }
-  
+
   .reader-text h3{
     font-size: 68px;
   }
-  
+
   .reader-text h6{
     top: 16%;
   }
-  
+
   .inspiration-box-details h3{
     font-size: 35px;
   }
@@ -1275,4 +1276,4 @@
 
 
 
-// 
+//
