@@ -1060,6 +1060,10 @@
     height: 50%;
     width: 60%; } }
 
+@media screen and (min-width: 1800px) {
+  .storehouse-box {
+    background-size: 28% 67%; } }
+
 @media screen and (max-width: 800px) {
   .box-text .new-article-text {
     color: #c8c8c8; }
